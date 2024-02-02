@@ -22,7 +22,7 @@ phases:
     commands:
     - echo Build completed on `date`
     - echo pushing to repo
-    - docker push $REPOSITORY_URI:latest .
+    - docker push $REPOSITORY_URI:624130542457.dkr.ecr.us-east-1.amazonaws.com/springboot-aws-deploy
     - docker push $REPOSITORY_URI:$IMAGE_TAG
     - echo Writing image definitions file...
     # Give your container name
